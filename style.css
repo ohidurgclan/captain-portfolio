@@ -31,7 +31,10 @@ section {
     background-repeat: no-repeat;
 }
 h1 {
-    font-size: 30px;
+    font-size: 50px;
+}
+h2 {
+    font-size: 37px;
 }
 .orange-color {
     color:orange;
@@ -41,11 +44,13 @@ h1 {
 }
 .identity {
     width: 50%;
-    padding-left: 8%;
+    padding-left: 5%;
 }
 .identity img {
     width:68%;
     padding-left: 12px;
+    margin-top: 40px;
+    margin-left: 55px;
 }
 .pading {
     padding: 30px;
@@ -65,6 +70,31 @@ h1 {
     background-repeat: no-repeat;
     background-position: right
 }
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .experience-box {
     display: flex;
+    padding-left: 5%;
+}
+.info-box {
+    box-shadow: 10px 10px 35px gray;
+    margin-right: 5%;
+    width: 40%;
+    padding: 30px;
+     
+}
+#stack-web-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, rgb(253, 75, 244));
+    border-image-slice: 100%;
+    border-image-slice: 1 
+}
+#junior-web-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 100%;
+    border-image-slice: 1 
 }
