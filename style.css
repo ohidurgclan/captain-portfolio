@@ -1,0 +1,70 @@
+/*-----------------------------------------------------------------------------------
+    Template Name: Captain America World!
+    Template URI: http://
+    Description: This is html5 template
+    Author: Md Ohidur Rahman
+    Author URI: https://www.facebook.com/ohidur.AlexMarcer/
+    Version: 1.0
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+---------------------------------------------*/
+/*----------------------------------------*/
+/*  1.  Theme default CSS Start
+/*----------------------------------------*/
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+margin: 0;
+padding: 0;
+}
+section {
+    margin-bottom: 120px;
+}
+.header-profile {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 30px;
+}
+.orange-color {
+    color:orange;
+}
+.header-profile {
+    display: flex;
+}
+.identity {
+    width: 50%;
+    padding-left: 8%;
+}
+.identity img {
+    width:68%;
+    padding-left: 12px;
+}
+.pading {
+    padding: 30px;
+}
+.hire-btn {
+    padding: 10px 40px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, tomato, lightsalmon);
+    color:white;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.dream-big {
+    display: flex;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right
+}
+.experience-box {
+    display: flex;
+}
