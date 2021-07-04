@@ -98,3 +98,7 @@ h2 {
     border-image-slice: 100%;
     border-image-slice: 1 
 }
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+}
